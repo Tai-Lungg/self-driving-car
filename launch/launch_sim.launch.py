@@ -36,6 +36,9 @@ def generate_launch_description():
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'my_bot'],
                         output='screen')
+    
+    
+   
 
 
 
@@ -44,4 +47,5 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
+        
     ])
